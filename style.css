@@ -1,0 +1,404 @@
+.top-section{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.sakura{
+    height: 600px;
+    position: absolute;
+    left:70%;
+    top: 37%;
+}
+
+.sun{
+    height: 300px;
+    position: absolute;
+    top:5%;
+    left:25%;
+}
+
+.heading{
+    position: absolute;
+    top:50%;
+    left:45%;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.name{
+   
+    line-height: 5px;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: capitalize;
+        color:#BC7AF9 ;
+      
+}
+
+.mid-section{
+    height: 100vh;
+    width:100%;
+    background-color: #BC7AF9;
+    text-align: center;
+
+}
+
+
+
+.myself{
+     height: 200px;
+     width: 200;
+     border-radius: 30%;
+     margin-top: 30px;
+}
+
+hr{
+    border-style: none;
+    border-top-style:dotted ;
+    border-width: 10px;
+    width: 10%;
+    margin-top:  15px;
+    border-color: #BC7AF9;
+}
+
+h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+    line-height: 30px;
+    margin-bottom: 0%;
+}
+
+.joy{
+    border-radius: 50%;
+    height: 200px;
+    float: left;
+    clear: right;
+    margin-right: 25px;
+}
+
+.code-love{
+    height: 200px;
+    float: right;
+    clear: left;
+    border-radius: 50%;
+    margin-right:100px ;
+}
+
+.td-2{
+    text-align: center;
+}
+
+h1{
+    line-height: 5px;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: capitalize;
+        color: #FFA1F5;
+}
+
+p{
+    color: beige;
+}
+
+.cont-1{
+    float: right;
+    clear: left;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.cont-2{
+    float:left;
+    clear: right;
+    text-align: right;
+    padding-top: 25px;
+}
+
+strong{
+    line-height: 5px;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #FFA1F5;
+}
+
+table{
+    margin-top: 50px;
+    margin-left: 550px;
+    text-align: center;
+}
+
+.contact{
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.words{
+    font-weight: 200;
+    font-style: normal;
+    line-height: 40px;
+    color: #BC7AF9;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #BC7AF9;
+    font-size: 27px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid #BC7AF9 2px;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
+  .btn:hover {
+    background: #FFA1F5;
+    text-decoration: none;
+  }
+
+  .foot{
+    display: flex;
+    height: 10vh;
+    background: #BC7AF9;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .icons{
+    height: 40px;
+    width: 40px;
+  }
+
+
+
+
+@media (max-width:800px){
+   
+    .sakura{
+        height: 200px;
+        position: absolute;
+        left:200%;
+        top: 50%;
+        right:0;
+        bottom: 0%;
+    }
+    
+    .sun{
+        height: 150px;
+        position: absolute;
+        top:5%;
+        left:40%;
+    }
+
+    .top-section{
+        height: 75vh;
+        margin: 0;
+        position: relative;
+        text-align: center;
+    }
+
+    
+    .name{
+   
+        line-height: 2px;
+            font-family: "Pacifico", cursive;
+            font-weight: 200;
+            font-style: normal;
+            text-transform: capitalize;
+            color:#BC7AF9 ;
+          
+    }
+
+    .heading{
+        position: absolute;
+        top:50%;
+        left:100%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .mid-section{
+        height: 100vh;
+        width:100vh;
+        background-color: #BC7AF9;
+        text-align: center;
+        width: 112vh;
+    
+    }
+    
+    
+    
+    .myself{
+         height: 100px;
+         width: 100px;
+         margin-top: 20px;
+    }
+    
+    hr{
+        border-style: none;
+        border-top-style:dotted ;
+        border-width: 10px;
+        width: 120vh;
+        margin-top:  7px;
+        border-color: #BC7AF9;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: beige;
+        line-height: 10px;
+        margin-bottom: 0%;
+    }
+    
+    .joy{
+        border-radius: 50%;
+        height: 100px;
+        float: left;
+        clear: right;
+        margin-left: 50px;
+    }
+    
+    .code-love{
+        height: 100px;
+        float: right;
+        clear: left;
+        border-radius: 50%;
+        margin-right:150px ;
+        margin-top: 25px;
+    }
+    
+    .td-2{
+        text-align: center;
+    }
+    
+    h1{
+        line-height: 10px;
+            font-family: "Pacifico", cursive;
+            font-weight: 200;
+            font-style: normal;
+            text-transform: capitalize;
+            color: #FFA1F5;
+    }
+    
+    p{
+        color: beige;
+    }
+    
+    .cont-1{
+        float: right;
+        clear: left;
+        text-align: left;
+        padding-top: 30px;
+    }
+    
+    .cont-2{
+        float:left;
+        clear: right;
+        text-align: right;
+        padding-top: 30px;
+    }
+    
+    strong{
+        line-height: 10px;
+        font-family: "Pacifico", cursive;
+        font-weight: 200;
+        font-style: normal;
+        text-transform: capitalize;
+        color: #FFA1F5;
+    }
+    
+    table{
+        margin-top: 150px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    
+    .contact{
+        height: 30vh;
+        width: 112vh;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .words{
+        font-weight: 200;
+        font-style: normal;
+        line-height: 40px;
+        color: #BC7AF9;
+    }
+    
+    .btn {
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #BC7AF9;
+        font-size: 27px;
+        background: transparent;
+        padding: 10px 20px 10px 20px;
+        border: solid #BC7AF9 2px;
+        text-decoration: none;
+        margin-top: 50px;
+      }
+      
+      .btn:hover {
+        background: #FFA1F5;
+        text-decoration: none;
+      }
+    
+      .foot{
+        display: flex;
+        height: 10vh;
+        width: 112vh;
+        background: #BC7AF9;
+        align-items: center;
+        justify-content: space-between;
+    
+      }
+    
+      li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 20px;
+      }
+    
+      .icons{
+        height: 40px;
+        width: 40px;
+      }
+    
+    
+    
+    
+    
+}
